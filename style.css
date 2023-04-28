@@ -7,12 +7,15 @@
     font-family: myfont ;
     src: url(fonts/BrandonGrotesque-Bold.otf);
 }
+body {
+    background-color: gray;
+}
 .container {
     max-width: 1440px;
-    height: 6690px;
+    height: 6990px;
     width: 100%;
     margin: 0 auto;
-    background-color: #F7F7F7;
+    background-color:#F7F7F7
 }
 .header-content {
     margin-top: 28px;
@@ -75,12 +78,13 @@ li::after {
     font-size: 32.7px;
 }
 .impact-text {
+    line-height: 33.3px;
     font-size: 25px;
     margin-top: 65px;
     width: 432px;
     height: 126px;
 }
-button {
+ button {
     margin-left: 180px;
     margin-top: 88px;
     width: 209px;
@@ -146,6 +150,7 @@ button h6 {
 }
 .conception-text p{
     font-size: 18px;
+    line-height: 33.3px;
 }
 .conception-blocks {
     width: 1260px;
@@ -192,4 +197,490 @@ button h6 {
     font-size: 11px;
     letter-spacing: 1.1px;
     color: #D1D1D1;
+}
+.projects-content {
+    margin-top: 90px;
+    margin-left: 180px;
+}
+.projects-title {
+    width: 177px;
+    height: 43px;
+}
+.projects-title h2 {
+    font-family: myfont;
+    font-size: 30px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+.projects-text {
+    margin-top: 60px;
+    width: 661px;
+    height: 102px;
+}
+.projects-text p {
+    font-size: 20px;
+    color: #262626;
+    line-height: 33.3px;
+}
+.links-content {
+    margin-top: 54.14px;
+    width: 650px;
+    height: 83px;
+}
+.links-content a {
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 33px;
+    color: #262626;
+    width: 148px;
+    height: 34px;
+    background: #FFFFFF;    
+    box-shadow: 0px 2px 4px #00000021;
+}
+.bruxelles-images-content {
+    margin-top: 68px;
+    margin-left: 179px;
+    display: flex;
+    width: 1081px;
+    height: 440px;
+}
+.big-picture img {
+    width: 711px;
+    height: 440px;
+}
+.big-picture-text {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px #00000029;
+    border-radius: 0px 0px 6px 6px;
+}
+.big-picture-text h5 {
+    text-transform: uppercase;
+    font-family: myfont;
+    letter-spacing: 1.4px;
+    line-height: 33.3px;
+    margin-top: 39px;
+    margin-left: 47px;
+}
+.big-picture-text h4 {
+    margin-top: 16px;
+    margin-left: 47px;
+    font-size: 15px;
+    line-height: 33.3px;
+    color: #262626;
+    font-family:'Tisa Sans Pro', sans-serif;
+    font-weight: 500;
+}
+.big-picture-text span {
+    margin-top: 9px;
+    margin-left: 47px;
+    font-size: 12px;
+    color: #959595;
+    letter-spacing: 1.2px;
+    line-height: 33.3px;
+}
+.big-picture-text p {
+    line-height: 28px;
+    width: 276px;
+    height: 167px;
+    margin-top: 31px;
+    margin-left: 47px;
+    font-family:'Tisa Sans Pro', sans-serif;
+    font-size: 10px;
+    text-align: left;
+}
+.blue-text {
+    margin-top: 45px;
+    display: flex;
+}
+.bluetext h2 {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 33.3px;
+    color:#002D69;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.blue-circle h3{
+    color: white;
+    margin-top: 5px;
+    padding-left: 4px;
+    margin-left: 45px;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.blue-circle {
+    margin-left: 20px;
+}
+.blocks {
+    margin-left: 179px;
+    margin-top: 60px;
+}
+.bruxeless-block {
+    vertical-align: middle;
+    display: inline-block;
+    width: 320px;
+    height: 461px;
+    background: #FFFFFF;
+}
+.bruxeless-block:nth-child(2) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.bruxeless-block img {
+    width: 320px;
+    height: 275px;
+}
+.title h2 {
+    counter-reset: #262626;
+    font-family: myfont;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.title h4 {
+    margin-top: 17px;
+    margin-left: 30px;
+    color: #262626;
+    font-size: 14px;
+    font-family:'Tisa Sans Pro', sans-serif;
+    line-height: 31px;
+}
+.title span {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #959595;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    line-height: 31px;
+}
+.block-bluetext {
+    display: flex;
+}
+.block-bluetext h5 {
+    padding-top: 2px;
+    padding-left: 5px;   
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.block-bluetext span {
+    font-size: 11px;
+    color: #002D69;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blocks-button button{  
+        margin-left: 400px;
+        width: 209px;
+        height: 48px;
+        background-color: #FF7600;
+        box-shadow: 0px 4px 6px #00000040;
+        border: 1px solid #FF7600 ;
+        border-radius:5px;
+        opacity: 0.9;
+}
+.changer-title {
+    width: 350px;
+    height: 86px;
+    margin-top: 180px;
+    margin-left: 180px;
+}
+.changer-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: myfont;
+    letter-spacing: 9px;
+    line-height: 43px;
+    color: #111111;
+}
+.edu-content {
+    display: inline-block;
+}
+.edu-title {
+    width: 184px;
+    height: 36px;
+    margin-top: 184px;
+    margin-left: 180px;
+
+}
+.edu-title h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: myfont;
+    color: #111111;
+}
+.edu-text {
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 448px;
+    height:126px;
+}
+.edu-text p {
+    font-size: 18px;
+    line-height: 33.3px;
+    font-family:'Tisa Sans Pro', sans-serif; 
+}
+.below-links-content {
+    margin-top: 102.14px;
+    margin-left: 180px;
+    width: 650px;
+    height: 83px;
+}
+.below-links-content a {
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 33px;
+    color: #FFFFFF;
+    width: 148px;
+    height: 34px;
+    background: #0865DE;    
+    box-shadow: 0px 2px 4px #00000021;
+}
+.references-content {
+    margin-top: 218px;
+}
+.references-title {
+    margin-top: 90px;
+    margin-left: 180px;
+    width: 201px;
+    height: 36px;
+}
+.references-title h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    font-family: myfont;
+    text-transform: uppercase;
+}
+.reference-text {
+    width: 569px;
+    height: 93px;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.reference-text p {
+    font-size: 18px;
+    font-family:'Tisa Sans Pro', sans-serif;
+    line-height: 33px;
+    color: #262626;
+}
+.brands-wrapper {
+    margin-top: 90px;
+    margin-left: 180px;
+    width: 673px;
+    background-color: rgb(192, 183, 183);
+}
+.brands-wrapper img {
+    width: 165px;
+    height: 165px;
+}
+.edu-title2 {
+    width: 304px;
+    height: 36px;
+    margin-top: 184px;
+    margin-left: 180px;
+}
+.edu-title2 h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: myfont;
+    color: #111111;
+}
+.comment-button button {
+    margin-left: 180px;
+    margin-top: 88px;
+    width: 209px;
+    height: 48px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 4px 6px black;
+    border: 1px solid #FFFFFF ;
+    border-radius:5px;
+    opacity: 0.9;
+}
+.comment-button button h6 {
+    color: black;
+}
+.elisa-block-wrapper {
+    margin-top: 120px;
+    margin-left: 180px;
+}
+.elisa-blocks {
+    margin-top: 60px;
+    display: inline-block;
+    width: 318px;
+    height: 198px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 6px #00000029;
+}
+.elisa-title {
+    margin-top: 26px;
+    margin-left: 30px;
+}
+.elisa-title h2 {
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 33px;
+    color: #111111;
+    font-family: myfont;
+    text-transform: uppercase;
+}
+.elisa-title span {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 33.3px;
+    font-family: myfont;
+    text-transform: uppercase;
+    color: #959595;
+}
+.elisa-text {
+    margin-left: 50px;
+    width: 257px;
+    height: 102px;
+}
+.elisa-text p{
+    font-family: 'Tisa Sans Pro', sans-serif;
+    color: #000000CC;
+    font-size: 10px;
+    line-height: 28px;
+}
+.elisa-blocks:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.elisa-blocks:nth-child(5) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-blocks-wrapper {
+    margin-top: 110px;
+    display: flex;
+}
+.footer-blocks {
+    display: inline-block;
+    vertical-align: middle;
+    width: 232px;
+    height: 422px;
+    background-color: #f6fbff;
+}
+.footer-blocks-title h2{
+    padding-top: 67px;
+    text-align: center;
+    font-family: myfont;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #111111;
+    letter-spacing: 1.2px;
+    line-height: 33.3px;
+}
+.footer-blocks-text {
+    margin-left: 64px;
+    margin-top: 59px;
+    width: 100px;
+    height: 112px;
+}
+.footer-blocks-text .number {
+    text-align: center;
+    font-size: 11px;
+    color: #959595;
+    letter-spacing: 0.88px;
+    line-height: 50px;
+}
+.footer-blocks:nth-child(2) {
+    border-left: 1px solid rgb(192, 192, 199);
+    border-right:1px solid rgb(192, 192, 199);
+}
+.footer-blocks:nth-child(3) {
+    border-right:1px solid rgb(192, 192, 199);
+}
+.email-content {
+    width: 510px;
+    height: 420px;
+    background-color:#FFFFFF;
+}
+.email-title {
+    width: 320px;
+    height: 18px;
+}
+.email-title h2 {
+    margin-top: 62px;
+    margin-left: 109px;
+    font-family: myfont;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #111111;
+    line-height: 33.3px;
+}
+.email-text {
+    width: 406px;
+    height: 34px;
+}
+.email-text p {
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    line-height: 20px;
+    margin-top: 67px;
+    margin-left: 109px;
+    color: #111111;
+    font-family:'Tisa Sans Pro', sans-serif;
+}
+.email-input input {
+    margin-top: 55px;
+    width: 250px;
+    height: 37px;
+    border: 1px solid var(--unnamed-color-0865de);
+    border: 1px solid #0865DE;
+    padding: 19px;
+}
+.email-input label {
+    margin-left: 109px;
+    color: #111111;
+    font-size: 11px;
+    letter-spacing: 0.88px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.wrapper {
+    display: flex;
+}
+.blue-ok {
+    margin-top:57px;
+    width: 45px;
+    height: 40px;
+    background: #0865DE;
+}
+.blue-ok span {
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 11px;
+    letter-spacing: 0.88px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
